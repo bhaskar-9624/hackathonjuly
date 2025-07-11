@@ -2,8 +2,8 @@
 version: "3"
 services:
  devopsdb:
-   container_name: devopsdb
-   image: bhass9624/main:dbimage
+   container_name: devopsapp
+   image: bhass9624/main:appimage
    ports:
      - "3306:3306"
 
